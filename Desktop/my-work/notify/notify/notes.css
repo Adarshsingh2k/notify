@@ -1,0 +1,27 @@
+nav{
+    margin-bottom: 50px;
+    background-color: black;
+}
+.inav{
+    height: 30px;
+    width: 50px;
+}
+header{
+    margin-top: 70px;
+    
+    margin-bottom: 50px;
+}
+.year .card{
+    height: 500px;
+}
+.year img{
+    height:300px;
+}
+.sub img{
+    height: 70vh;
+}
+
+.subjects .card{
+    height: 370px;
+}
+
