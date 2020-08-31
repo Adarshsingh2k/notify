@@ -22,6 +22,9 @@ header{
 }
 
 .subjects .card{
-    height: 370px;
+    height: 390px;
 }
 
+.biochem img{
+    height: 180px;
+}
