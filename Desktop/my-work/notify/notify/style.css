@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 header{
     margin-top: 70px;
     height: 90vh;
@@ -43,14 +44,108 @@ header img{
 }
 .eve-cover h2{
     font-family: 'Bungee Inline', cursive;
-    color: rgb(0, 255, 213);
+    color: rgb(18, 19, 18);
     margin-top: 50px;
 }
 .eve-cover button{
     background-color: transparent;
 }
+.evecrd1{
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+.evecrd1:hover{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    filter: drop-shadow(0 0 0.75rem rgb(184, 141, 150));
+}
+.crdbtn{
+    border: none;
+    background: transparent;
+    margin-top: 90%;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .crdbtn{
+        border: none;
+        background: transparent;
+        margin-top: 0;
+        margin-left: 35%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .crdbtn{
+        border: none;
+        background: transparent;
+        margin-top: 0;
+        margin-left: 35%;
+    }
 
+}
 
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    .crdbtn{
+        border: none;
+        background: transparent;
+        margin-top: 150%;
+        margin-left: 35%;
+    }
+    
+  }
+ 
+  .thead{
+    background-image: url(./img/tshirtheader.png);
+    height:100%;
+    /*width: 100%;*/
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+.tshirt {
+    
+   
+    height:100%;
+    /*width: 100%;*/
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tshirt .card h3{
+    font-family: 'Luckiest Guy', cursive;
+
+}
+  .tshirt .card img{
+      height: 250px;
+      
+  }
+  
+.tshirt .card:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(241, 239, 239));
+
+}
+.ttext{
+    letter-spacing: 2px;
+    font-size: 4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: 700;
+}
 /*.eve img{
     height: 80vh;
 }*/
