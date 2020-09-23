@@ -1,0 +1,24 @@
+nav{
+    margin-bottom: 50px;
+    background-color: black;
+}
+.inav{
+    height: 30px;
+    width: 50px;
+}
+
+
+header{
+    margin-top: 70px;
+    
+    margin-bottom: 50px;
+}
+
+.li-item a{
+    background-color: none;
+
+}
+.li-item a:hover{
+    background-color: aqua ;
+
+}
