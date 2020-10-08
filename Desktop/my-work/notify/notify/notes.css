@@ -31,3 +31,10 @@ header{
 .about1 img{
   
 }
+.subone img{
+    height: 190px;
+    
+}
+.subone .card{
+    height: 400px;
+}
